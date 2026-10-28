@@ -13,7 +13,7 @@ class LoginPage:
 
     def open(self):
         self.page.goto(
-            "https://practicetestautomation.com/practice-test-login/"
+            "https://practicetestautomation.com/practice-test-login/",  wait_until="domcontentloaded", timeout=60000
         )
 
     def login(self, username: str, password: str):
