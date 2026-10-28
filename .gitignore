@@ -1,0 +1,23 @@
+
+# Virtual environments
+venv/
+venv-py311/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Test reports
+reports/
+
+# Environment variables and secrets
+.env
+
+# IDE settings
+.idea/
+.vscode/
+
